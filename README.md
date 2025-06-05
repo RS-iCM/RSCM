@@ -1,8 +1,8 @@
 # RSCM: Remote Sensing-integrated Crop Model
 
 **Author**: Chi Tim Ng and Jonghan Ko  
-**Affiliation**: Hang Sensing University (Hong Kong) and Chonnam National University (South Korea)
-**Repository**: https://github.com/jonghanko/RSCM
+**Affiliation**: Hang Sening University of Hong Kong and Chonnam National University
+**Repository**: https://github.com/RSCM-Python/RSCM
 
 ---
 
