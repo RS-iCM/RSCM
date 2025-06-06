@@ -2,7 +2,7 @@
 
 **Author**: Chi Tim Ng and Jonghan Ko  
 **Affiliation**: Hang Seng University of Hong Kong and Chonnam National University
-**Repository**: https://github.com/RSCM-Python/RSCM
+**Repository**: https://github.com/RS-iCM/RSCM
 
 ---
 
