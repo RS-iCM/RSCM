@@ -25,11 +25,11 @@ RSCM is a modular, Python-based simulation framework that integrates remote sens
 ## Requirements
 
 - Python ≥ 3.8  
-- numpy  
-- pandas  
-- matplotlib  
-- scikit-learn  
-- scipy 
+- numpy >= 1.22
+- pandas >= 1.5
+- matplotlib >= 3.5
+- scikit-learn >= 1.1
+- scipy >= 1.8
 
 Install dependencies using:
 
