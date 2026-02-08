@@ -61,6 +61,13 @@ RSCM is an open-source, modular simulation framework designed to integrate satel
    ```bash
    git clone [https://github.com/RS-iCM/RSCM.git](https://github.com/RS-iCM/RSCM.git)
    cd RSCM
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Compile the C-Engine: Use the following command to compile the shared library for the simulation core:
+   ```bash
+   gcc -shared -o RSCM_v1.so -fPIC RSCM_v1.c powell_min.c -lm
 ```
 
 ## Quick Start
