@@ -63,3 +63,25 @@ RSCM is an open-source, modular simulation framework designed to integrate satel
    cd RSCM
 ```
 
+Quick Start
+To run a sample simulation for rice using 2021 field data:
+
+Open the interactive notebook: RUN_Python_Rice_v1.ipynb.
+
+Execute the cells to load the Bayesian priors, ingest MODIS-derived VIs, and generate the growth trajectory plots.
+
+Repository Structure
+
+/Data: Sample meteorological and VI datasets (Rice, Wheat, Maize).
+
+
+/Source: C source code for the simulation engine and Powell optimization.
+
+
+/Notebooks: Jupyter Notebook tutorials for plot-level and regional applications.
+
+Citation
+If you use this software in your research, please cite: Ng, C. T., Ko, J., Jeong, S., & Ban, J. (2026). RSCM: A Bayesian Remote Sensing-integrated Crop Model Software Framework for Yield Forecasting. SoftwareX.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details
