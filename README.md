@@ -36,3 +36,7 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 
+```markdown
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RS-iCM/RSCM/main)
+```
+
