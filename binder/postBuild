@@ -18,7 +18,7 @@ echo "Compiling C simulation engine..."
 cd CodeC
 
 # Compile shared library
-gcc -shared -o RSCM_lib.so -fPIC RSCM_v1.c Powell_min.c -lm -O2
+gcc -shared -o RSCM_lib.so -fPIC RSCM_v1.c powell_min.c -lm -O2
 
 if [ -f "RSCM_lib.so" ]; then
     echo "✓ C library compiled successfully: RSCM_lib.so"
