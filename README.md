@@ -37,6 +37,29 @@ Install dependencies using:
 pip install -r requirements.txt
 
 ```markdown
+# RSCM: Remote Sensing-integrated Crop Model Software Framework
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RS-iCM/RSCM/main)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+RSCM is an open-source, modular simulation framework designed to integrate satellite-derived vegetation indices (VIs) directly into process-based crop models via Bayesian Log-Log assimilation.
+
+
+## Key Features
+- [cite_start]**Bayesian Assimilation**: Automates parameter estimation ($L_0, a, b, c, rGDD$) using satellite time-series[cite: 143, 221].
+- [cite_start]**Hybrid Architecture**: Combines Python's data flexibility with a high-performance C simulation core[cite: 150].
+- [cite_start]**Multi-Crop Support**: Pre-configured parameters for Rice, Wheat, and Maize[cite: 182, 234].
+- [cite_start]**Scalability**: Capable of processing regional-scale yield maps (millions of pixels) using shared-memory parallelization[cite: 780, 1198].
+
+## System Requirements
+- **OS**: Linux (Ubuntu 20.04+), macOS, or Windows (10/11).
+- **Python**: ≥ 3.8
+- [cite_start]**Compiler**: GCC ≥ 7.5 (Linux/macOS) or MinGW-w64 (Windows) for the C-engine[cite: 1194].
+
+## Installation
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/RS-iCM/RSCM.git](https://github.com/RS-iCM/RSCM.git)
+   cd RSCM
 ```
 
