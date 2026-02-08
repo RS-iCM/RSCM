@@ -23,8 +23,8 @@ from scipy.ndimage import gaussian_filter1d
 ##########################################################################################################
 
 fPath = os.path.abspath(os.getcwd()) + '//'  ###*** current working directory ***###
-cfun = CDLL(fPath + 'CodeC\RSCM_v1.dll')  # Windocws ; *** For Linux, use the below line
-#cfun = CDLL(fPath + 'CodeC/RSCM_v1.so') # Linux ; *** For Windows, use the above line
+#cfun = CDLL(fPath + 'CodeC\RSCM_v1.dll')  # Windocws ; *** For Linux, use the below line
+cfun = CDLL(fPath + 'CodeC/RSCM_v1.so') # Linux ; *** For Windows, use the above line
 
 
 ##########################################################################################################
@@ -528,3 +528,4 @@ def out_file_cG(outf,para0,cyield,RSCMProcess):
     for i in range(nrecords):
         pfs = '{0:>3.0f}{1:>4d}{2:>7.1f}{3:>7.2f}{4:>7.2f}{5:>8.1f}{6:>7.2f}{7:>7.2f}{8:>7.2f}{9:>7.1f}\n'
         outf.write(pfs.format(sDOY[i],i,GDD[i],OLAI[i],LAI[i],AGDM[i],NPP[i],GPP[i],ET[i],PGP[i]))
+
