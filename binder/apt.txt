@@ -1,0 +1,3 @@
+gcc
+build-essential
+libc-dev

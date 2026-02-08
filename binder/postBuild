@@ -1,0 +1,37 @@
+#!/bin/bash
+# ==============================================================================
+# RSCM: Remote Sensing-integrated Crop Model
+# Binder postBuild Script
+# ==============================================================================
+# This script runs after the environment is created
+# It compiles the C simulation engine
+# ==============================================================================
+
+set -e
+
+echo "=============================================="
+echo "RSCM Binder Setup"
+echo "=============================================="
+
+# Navigate to C code directory and compile
+echo "Compiling C simulation engine..."
+cd CodeC
+
+# Compile shared library
+gcc -shared -o RSCM_lib.so -fPIC RSCM_v1.c Powell_min.c -lm -O2
+
+if [ -f "RSCM_lib.so" ]; then
+    echo "✓ C library compiled successfully: RSCM_lib.so"
+else
+    echo "✗ Warning: C compilation may have failed"
+fi
+
+cd ..
+
+echo ""
+echo "=============================================="
+echo "Setup complete! You can now run the notebooks:"
+echo "  - RUN_Python_Rice_v1.ipynb"
+echo "  - RUN_Python_Wheat_v1.ipynb"
+echo "  - RUN_Python_Maize_v1.ipynb"
+echo "=============================================="
