@@ -20,7 +20,7 @@ cd CodeC
 # List files to verify
 ls -la *.c
 
-# Compile
+# Compile shared library
 gcc -shared -o RSCM_lib.so -fPIC RSCM_v1.c powell_min.c -lm -O2
 
 if [ -f "RSCM_lib.so" ]; then
