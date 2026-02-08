@@ -73,13 +73,13 @@ To run a sample simulation for rice using 2021 field data:
 
 ## Repository Structure
 
-/Data: Sample meteorological and VI datasets (Rice, Wheat, Maize).
+- /Data: Sample meteorological and VI datasets (Rice, Wheat, Maize).
 
 
-/Source: C source code for the simulation engine and Powell optimization.
+- /Source: C source code for the simulation engine and Powell optimization.
 
 
-/Notebooks: Jupyter Notebook tutorials for plot-level and regional applications.
+- /Notebooks: Jupyter Notebook tutorials for plot-level and regional applications.
 
 ## Citation
 If you use this software in your research, please cite: Ng, C. T., Ko, J., Jeong, S., & Ban, J. (2026). RSCM: A Bayesian Remote Sensing-integrated Crop Model Software Framework for Yield Forecasting. SoftwareX.
