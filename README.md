@@ -1,4 +1,4 @@
-# RSiCM: Remote Sensing-integrated Crop Model
+# RSCM: Remote Sensing-integrated Crop Model
 
 **Authors**: Chi Tim Ng at Hang Seng University of Hong Kong and Jonghan Ko at Chonnam National University
 **Collaborator**: Jong-oh Ban at Hallym Polytechnic University
@@ -8,7 +8,7 @@
 
 ## Overview
 
-RSiCM is a modular, Python-based simulation framework that integrates remote sensing data with crop modeling processes. Designed for agricultural monitoring, RSiCM enables dynamic simulation of crop growth, biophysical parameters (e.g., LAI, AGDM), and yield prediction under diverse environmental and management conditions. This framework facilitates the incorporation of machine learning algorithms to enhance parameter calibration and improve forecasting accuracy.
+RSiCM is a modular, Python-based simulation framework that integrates remote sensing data with crop modeling processes. Designed for agricultural monitoring, RSCM enables dynamic simulation of crop growth, biophysical parameters (e.g., LAI, AGDM), and yield prediction under diverse environmental and management conditions. This framework facilitates the incorporation of machine learning algorithms to enhance parameter calibration and improve forecasting accuracy.
 
 ---
 
