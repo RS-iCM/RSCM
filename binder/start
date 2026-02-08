@@ -9,7 +9,7 @@
 if [ ! -f "CodeC/RSCM_v1.so" ]; then
     echo "Compiling C library..."
     cd CodeC
-    gcc -shared -o RSCM_lib.so -fPIC RSCM_v1.c powell_min.c -lm -O2
+    gcc -shared -o RSCM_v1.so -fPIC RSCM_v1.c powell_min.c -lm -O2
     cd ..
 fi
 
